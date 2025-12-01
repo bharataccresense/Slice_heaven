@@ -1,0 +1,897 @@
+<html>
+
+<head>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slice Heaven</title>
+</head>
+
+<body>
+    <section id="home">
+
+        <div class="nav">
+            <div class="logo">
+                <img src="Images/logo12.png" alt="">
+            </div>
+            <div class="nav_button" id="navbar">
+                <a href="#" class="active">Home</a>
+                <a href="#menu">Menu</a>
+                <a href="#abus">About Us</a>
+                <a href="#bat">Order Now</a>
+
+            </div>
+            <div class="hamburger" id="openMenu">☰</div>
+        </div>
+        <div class="mobile_sidebar" id="sidebar">
+            <a href="#" class="active">Home</a>
+            <a href="#menu">Menu</a>
+            <a href="#abus">About Us</a>
+            <a href="#bat">Order Now</a>
+        </div>
+
+
+        <section class="hero">
+            <div class="hero-content">
+                <h1>Slice Heaven Pizzeria</h1>
+                <p>Fresh. Authentic. Unforgettable.</p>
+                <!-- <a href="#menu" class="hero-btn">Explore Menu</a> -->
+            </div>
+        </section>
+
+
+        <!-- <div class="text">
+            
+            <div>
+                <h2>Where Every Slice Feels Like Heaven</h2>
+
+            </div>
+            <div>
+             <h3>Fresh sushi, handmade ramen, and premium Japanese cuisine crafted with tradition and passion.</h3>
+
+            </div>
+        </div> -->
+
+<!-- 
+
+        <div class="button">
+            <a href="#menu">
+                <div class="b1"><button id="but1">Menu</button></div>
+            </a>
+            <a href="#bat">
+                <div class="b1"><button id="but2">Order Now</button></div>
+            </a>
+        </div> -->
+
+
+
+
+
+
+    </section>
+
+
+    <!-- --------------about us secction-------------------- -->
+    <section id="abus" class="about-section">
+        <div class="about-content">
+            <h2>About Slice Heaven</h2>
+            <p>
+                At Slice Heaven Pizzeria, we believe pizza is more than food — it’s comfort, flavor, and happiness in
+                every bite.
+                Our dough is handcrafted daily, our sauce is made from fresh tomatoes, and our toppings are always
+                premium.
+            </p>
+            <p>
+                Whether you're a classic cheese lover or someone who craves bold flavors, we bake every pizza with
+                passion,
+                quality ingredients, and a little bit of love.
+            </p>
+
+            <!-- <a href="#menu" class="about-btn">Explore Our Menu</a> -->
+        </div>
+    </section>
+
+
+
+
+
+
+    <!-- CHEF -->
+    <section class="chef-section">
+        <h2 class="chef-title">Meet Our Chef</h2>
+        <p class="chef-sub">Crafting flavors with passion, experience & authenticity.</p>
+
+        <div class="chef-container">
+            <div class="chef-img">
+                <img src="Images/chef/chef1.jpg" alt="Master Chef">
+            </div>
+
+            <div class="chef-content">
+                <h3>Chef Alessandro Romano</h3>
+                <p>
+                    With over 15+ years of Italian culinary experience, Chef Alessandro brings
+                    traditional wood-fire pizza techniques blended with modern flavors.
+                </p>
+
+                <ul class="chef-skills">
+                    <li>🍕 Wood-Fire Pizza Specialist</li>
+                    <li>🥖 Italian Dough Expertise</li>
+                    <li>🌿 Farm-Fresh Ingredient Focus</li>
+                </ul>
+
+                <!-- <button class="chef-btn">Discover More</button> -->
+            </div>
+        </div>
+    </section>
+
+
+    <!-- -------------------- fixed background ------------------- -->
+
+    <section class="fixed-back">
+
+        <div class="img-div">
+            <div class="img-text">
+
+                <h2>The Slice You Never Forget.</h2>
+                <!-- <h2>「日本の心が息づく空間へ。」</h2> -->
+                <!-- <h2>(Nihon no kokoro ga ikizuku kūkan e.)</h2> -->
+            </div>
+        </div>
+
+    </section>
+
+    <!-- --------------menu secction-------------------- -->
+    <section id="menu" class="menu-section">
+        <h2 class="menu-title">Our Menu</h2>
+        <p class="menu-sub">Freshly baked pizzas with bold flavors, crafted to perfection.</p>
+
+        <!-- CATEGORY TABS -->
+        <div class="menu-tabs">
+            <button class="tab active" data-category="all">All</button>
+            <button class="tab" data-category="veg">Veg</button>
+            <button class="tab" data-category="nonveg">Non-Veg</button>
+            <button class="tab" data-category="special">Specials</button>
+        </div>
+
+        <div class="menu-grid">
+
+            <!-- ITEM 1 -->
+            <div class="menu-card" data-category="veg">
+                <img src="Images/pizza/pizza1.jpg" alt="Margherita Pizza">
+                <h3>Margherita</h3>
+                <p>Classic tomato sauce, mozzarella & basil.</p>
+                <span class="price">₹399</span>
+            </div>
+
+            <!-- ITEM 2 -->
+            <div class="menu-card" data-category="nonveg">
+                <img src="Images/pizza/pizza2.jpg" alt="Pepperoni Pizza">
+                <h3>Pepperoni</h3>
+                <p>Loaded with spicy pepperoni & mozzarella.</p>
+                <span class="price">₹499</span>
+            </div>
+
+            <!-- ITEM 3 -->
+            <div class="menu-card" data-category="veg">
+                <img src="Images/pizza/pizza3.jpg" alt="Veggie Pizza">
+                <h3>Veggie Delight</h3>
+                <p>Fresh bell peppers, olives & mushrooms.</p>
+                <span class="price">₹449</span>
+            </div>
+
+            <!-- ITEM 4 -->
+            <div class="menu-card" data-category="nonveg">
+                <img src="Images/pizza/pizza4.jpg" alt="BBQ Chicken Pizza">
+                <h3>BBQ Chicken</h3>
+                <p>Smoky chicken with BBQ sauce & cheese.</p>
+                <span class="price">₹549</span>
+            </div>
+
+            <!-- ITEM 5 -->
+            <div class="menu-card" data-category="special">
+                <img src="Images/pizza/pizza5.jpg" alt="White Sauce Pizza">
+                <h3>White Sauce</h3>
+                <p>Creamy garlic sauce with herbs & cheese.</p>
+                <span class="price">₹529</span>
+            </div>
+
+            <!-- ITEM 6 -->
+            <div class="menu-card" data-category="special">
+                <img src="Images/pizza/pizza6.jpg" alt="Tandoori Paneer Pizza">
+                <h3>Tandoori Paneer</h3>
+                <p>Indian twist with paneer & tandoori sauce.</p>
+                <span class="price">₹499</span>
+            </div>
+            <div class="menu-card" data-category="veg">
+                <img src="Images/pizza/pizza6.jpg" alt="Tandoori Paneer Pizza">
+                <h3>Tandoori Paneer</h3>
+                <p>Indian twist with paneer & tandoori sauce.</p>
+                <span class="price">₹499</span>
+            </div>
+            <div class="menu-card" data-category="nonveg">
+                <img src="Images/pizza/pizza6.jpg" alt="Tandoori Paneer Pizza">
+                <h3>Tandoori Paneer</h3>
+                <p>Indian twist with paneer & tandoori sauce.</p>
+                <span class="price">₹499</span>
+            </div>
+            <div class="menu-card" data-category="special">
+                <img src="Images/pizza/pizza6.jpg" alt="Tandoori Paneer Pizza">
+                <h3>Tandoori Paneer</h3>
+                <p>Indian twist with paneer & tandoori sauce.</p>
+                <span class="price">₹499</span>
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- ---------------------------- signature dishes ----------------- -->
+
+    <!-- <section class="signature-section">
+        <div class="arch-box">
+
+            <img src="Images/Signature_Dishes/sig1.png" alt="">
+        </div>
+
+        <div class="signature-bg">
+            <h2 class="signature-title">Our Signature Dishes</h2>
+            <p class="signature-sub">
+                “Crafted with soul, perfected with tradition — a plate full of Japan.”
+            </p>
+        </div>
+    </section> -->
+
+
+
+
+
+
+    <!-- Japanese Cocktail Bar Section -->
+
+    <!-- <section class="cocktail-section">
+        <div class="arch-box">
+
+            <img src="Images/Signature_Dishes/sig2.png" alt="">
+        </div>
+
+
+        <div class="cocktail-bg">
+            <h2 class="cocktail-title">Signature Japanese Cocktails</h2>
+            <p class="cocktail-sub">
+                “Where every sip balances harmony, craft, and quiet elegance.”
+            </p>
+        </div>
+    </section> -->
+
+
+    <!-- <section class="ingredient-section">
+        <div class="arch-box">
+
+            <img src="Images/Signature_Dishes/sig3.png" alt="">
+        </div>
+
+        <div class="ingredient-bg">
+            <h2 class="ingredient-title">Fresh Ingredients, Authentic Flavours</h2>
+            <p class="ingredient-sub">
+                We use only premium-grade produce sourced from the best farms & coasts.
+            </p>
+        </div>
+    </section> -->
+
+
+
+    <section id="happy" class="happy-section">
+        <h2 class="happy-title">Happy Moments 🍕</h2>
+        <p class="happy-sub">Real smiles, real pizza, real stories.</p>
+
+        <div class="happy-grid">
+
+            <div class="happy-card">
+                <img src="Images/happymoment/c1.jpg" alt="Customer enjoying pizza">
+                <div class="happy-overlay">Good food, good mood!</div>
+            </div>
+
+            <div class="happy-card">
+                <img src="Images/happymoment/c2.jpg" alt="Friends eating pizza">
+                <div class="happy-overlay">Friends + Pizza = Perfect Combo</div>
+            </div>
+
+            <div class="happy-card">
+                <img src="Images/happymoment/c3.jpg" alt="Birthday celebration">
+                <div class="happy-overlay">Celebrations taste better here 🥳</div>
+            </div>
+
+            <div class="happy-card">
+                <img src="Images/happymoment/c4.jpg" alt="Kids enjoying pizza">
+                <div class="happy-overlay">Happiness starts with a slice ❤️</div>
+            </div>
+            <div class="happy-card">
+                <img src="Images/happymoment/c4.jpg" alt="Kids enjoying pizza">
+                <div class="happy-overlay">Happiness starts with a slice ❤️</div>
+            </div>
+            <div class="happy-card">
+                <img src="Images/happymoment/c4.jpg" alt="Kids enjoying pizza">
+                <div class="happy-overlay">Happiness starts with a slice ❤️</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- --------------Table booking secction-------------------- -->
+    <section id="bat" class="order-section">
+        <h2 class="order-title">Order Your Pizza 🍕</h2>
+        <p class="order-sub">Fresh. Fast. Delicious — Served the way you love.</p>
+
+        <form onsubmit="change(); return false;" class="order-form" id="frm">
+
+            <div class="form-group">
+                <label>Name</label>
+                <input type="text" placeholder="Enter your full name" required>
+            </div>
+
+            <!-- <div class="form-group">
+                <label>Email</label>
+                <input type="email" placeholder="Enter your email" required>
+            </div> -->
+
+            <div class="form-group">
+                <label>Phone Number</label>
+                <input type="tel" placeholder="Enter 10 digit mobile number" pattern="[0-9]{10}" required>
+            </div>
+
+            <div class="form-group">
+                <label>Select Pizza</label>
+                <select required>
+                    <option value="">Choose your favorite</option>
+                    <option>Margherita</option>
+                    <option>Pepperoni</option>
+                    <option>Veggie Delight</option>
+                    <option>BBQ Chicken</option>
+                    <option>White Sauce</option>
+                    <option>Tandoori Paneer</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label>Size</label>
+                <select required>
+                    <option value="">Select size</option>
+                    <option>Small</option>
+                    <option>Medium</option>
+                    <option>Large</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label>Address</label>
+                <textarea placeholder="Enter delivery address" required></textarea>
+            </div>
+
+            <button type="submit" class="order-btn">Place Order</button>
+
+        </form>
+        <div class="mess">
+            <p id="msg" class="success_msg"> </p>
+        </div>
+
+    </section>
+
+
+    <!-- --------------reviews secction-------------------- -->
+    <div class="Rev">
+        <div class="me">
+            <h2>What they love about us!</h2>
+        </div>
+
+        <center>
+            <div class="cont_" id="reviewSlider">
+
+
+                <div class="cut1">
+                    <div class="ct">
+                        <!-- <div class="cut_im"><img src="Images/revs/anaya.jpeg" alt=""></div> -->
+                        <div class="ct1">
+                            <div class="re">“Best sushi experience ever — every bite feels like it melts effortlessly in
+                                the
+                                mouth.
+                                The ambience, flavours, and presentation together create a dining experience that’s
+                                truly
+                                unforgettable.”</div>
+                            <div class="name"><b>-Ananya,Singer</b></div>
+                            <!-- <div class="st">⭐️⭐️⭐️⭐️⭐️</div> -->
+                        </div>
+                    </div>
+                </div>
+
+                <div class="cut1">
+                    <div class="ct">
+                        <!-- <div class="cut_im"><img src="Images/revs/rohan.jpeg" alt=""></div> -->
+                        <div class="ct1">
+                            <div class="re">“Authentic, elegant, and beautifully presented — every dish reflects true
+                                Japanese
+                                craftsmanship.
+                                The balance of flavours and the calm ambience make the entire experience feel genuinely
+                                special.”
+                            </div>
+                            <div class="name"><b>-Rohan,Actor</b></div>
+                            <!-- <div class="st">⭐️⭐️⭐️⭐️⭐️</div> -->
+                        </div>
+                    </div>
+                </div>
+
+                <div class="cut1">
+                    <div class="ct">
+                        <!-- <div class="cut_im"><img src="Images/revs/varun.jpeg" alt=""></div> -->
+                        <div class="ct1">
+                            <div class="re">“A truly good experience — everything felt smooth and well-crafted from
+                                start to
+                                finish.
+                                The warm service and inviting atmosphere made the visit even more memorable.”</div>
+                            <div class="name"><b>-Varun,Designer</b></div>
+                            <!-- <div class="st">⭐️⭐️⭐️⭐️⭐️</div> -->
+                        </div>
+                    </div>
+                </div>
+
+                <div class="cut1">
+                    <div class="ct">
+                        <!-- <div class="cut_im"><img src="Images/revs/kriti.jpeg" alt=""></div> -->
+                        <div class="ct1">
+                            <div class="re">“The interior is beautifully designed, blending comfort with a modern
+                                aesthetic.
+                                Every corner feels thoughtfully curated, creating a calm and welcoming vibe.”</div>
+                            <div class="name"><b>-Kriti,Artist</b></div>
+                            <!-- <div class="st">⭐️⭐️⭐️⭐️⭐️</div> -->
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </center>
+
+
+
+
+        <!-- Dots -->
+        <div class="dots" id="dots">
+            <!-- <span></span>
+            <span></span>
+            <span></span>
+            <span></span> -->
+        </div>
+    </div>
+
+
+
+    <!-- Blog Section -->
+    <!-- <section id="blog" class="blog-section">
+        <div class="blog-heading">
+            <h2>Our Blog</h2>
+            <p>Stories, traditions, and behind-the-scenes from our Japanese kitchen.</p>
+        </div>
+
+        <div class="blog-grid"> -->
+
+    <!-- Blog 1 -->
+    <!-- <div class="blog-card">
+                <img src="Images/blogs/download (1).jpeg" alt="Art of Sushi Making" class="blog-img">
+                <h3>The Art of Sushi Making</h3>
+                <p>Discover the centuries-old techniques behind crafting authentic Japanese sushi with precision and
+                    balance.</p>
+                <a href="Blog.html#blog1" class="blog-btn">Read More</a>
+            </div> -->
+
+    <!-- Blog 2 -->
+    <!-- <div class="blog-card">
+                <img src="Images/blogs/Shop Tea Gifts_ Perfect Tea Gift Sets for Every Occasion - Harney & Sons Fine Teas.jpeg"
+                    alt="Japanese Tea Culture" class="blog-img">
+                <h3>Japanese Tea Culture</h3>
+                <p>A deep dive into matcha, ceremonial tea traditions, and how Japan perfected the art of calmness and
+                    mindful harmony.</p>
+                <a href="#" class="blog-btn">Read More</a>
+            </div>
+
+            
+            <div class="blog-card">
+                <img src="Images/blogs/Uncover the Marvels of Japan_ Your Complete Travel Guide is Here!.jpeg"
+                    alt="Tokyo Street Food" class="blog-img">
+                <h3>Tokyo Street Food</h3>
+                <p>From takoyaki to taiyaki—explore top Japanese street foods and their rich local cultural origin
+                    stories.</p>
+                <a href="#" class="blog-btn">Read More</a>
+            </div> -->
+    <!-- 
+            <div class="blog-card">
+                <img src="Images/blogs/Food photography of Japanese ramen Stock Photo.jpeg" alt="Art of Ramen"
+                    class="blog-img">
+                <h3>The Art of Ramen</h3>
+                <p>Discover the art of Japanese ramen—from broth traditions to modern fusion bowls loved.</p>
+                <a href="Blog.html#blog2" class="blog-btn">Read More</a>
+            </div> -->
+    <!-- <div class="blog-card">
+                <img src="Images/blogs/Food photography of Japanese ramen Stock Photo.jpeg" alt="Art of Ramen"
+                    class="blog-img">
+                <h3>The Art of Ramen</h3>
+                <p>Discover the art of Japanese ramen—from broth traditions to modern fusion bowls loved and celebrated
+                    worldwide.</p>
+                <a href="#" class="blog-btn">Read More</a>
+            </div>
+            <div class="blog-card">
+                <img src="Images/blogs/Food photography of Japanese ramen Stock Photo.jpeg" alt="Art of Ramen"
+                    class="blog-img">
+                <h3>The Art of Ramen</h3>
+                <p>Discover the art of Japanese ramen—from broth traditions to modern fusion bowls loved and celebrated
+                    worldwide.</p>
+                <a href="#" class="blog-btn">Read More</a>
+            </div> -->
+
+    <!-- </div>
+    </section> -->
+
+    <!-- --------------location secction-------------------- -->
+    <div class="Loc">
+
+        <div class="cont-m">
+
+            <div class="con-txt">
+                <div class="me_l">
+                    <h2>CONTACT</h2>
+                </div>
+                <div class="loca">
+                    <p>Shop No. 101, Indiranagar,</p>
+                    <p>Bengaluru, India</p>
+                </div>
+                <div class="time">
+                    <p>Mon-Sat 10am-8pm</p>
+                    <!-- <p>Fri - Sun 11am-12am</p> -->
+                </div>
+
+                <div class="mob">
+                    <p>
+                        <i class="fa-solid fa-phone"></i>
+                        +918146803078
+                    </p>
+                </div>
+                <!-- <div class="social">
+                    <div class="ms"><i class="fa-brands fa-instagram"></i></div>
+                    <div class="ms"><i class="fa-brands fa-facebook"></i></div>
+                    <div class="ms"><i class="fa-brands fa-twitter"></i></div>
+                </div> -->
+            </div>
+
+            <div class="images-l">
+                <div class="img"><iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31103.858845376115!2d77.61756891450727!3d12.972980257309139!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae16a418770391%3A0xb50f46b826501036!2sIndiranagar%2C%20Bengaluru%2C%20Karnataka!5e0!3m2!1sen!2sin!4v1763391057211!5m2!1sen!2sin"
+                        width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+
+            </div>
+
+        </div>
+    </div>
+
+    <!-- BRAND STORY / CLOSING -->
+    <div class="brand-story">
+        <div>
+            <h3>
+               Slice Heaven Pizzeria
+            </h3>
+            <h3>Where Every Slice Feels Like Heaven</h3>
+        </div>
+
+        <div><img src="Images/log1.png" alt="delivery_ani"></div>
+    </div>
+    <button id="scrollTopBtn">↑</button>
+
+    <!-- <div class="visitor-section">
+        <h2>Visitors</h2>
+        <div class="visitor-box">
+            <span id="visitorCount">0</span>
+            <p>Total Visitors</p>
+        </div>
+    </div> -->
+
+    <!-- --------------footer secction-------------------- -->
+    <footer class="footer">
+        <div class="foot-div">
+
+            <div class="footer-section">
+                <h4>Location</h4>
+                <p>📍 Indiranagar, Bengaluru</p>
+            </div>
+
+            <div class="footer-section">
+                <h4>Contact</h4>
+                <p>📞 <a href="tel:8146803078" style="color: white;">+91-8146803078</a></p>
+            </div>
+
+            <div class="footer-section">
+                <h4>Timings</h4>
+                <p>⏰ Mon-Sat 10 AM - 8 PM</p>
+            </div>
+
+            <div class="footer-section">
+                <h4>Find Us</h4>
+                <p>🗺 <a href="https://maps.app.goo.gl/BuRMiHE9U1TXmSHk6" style="color: white;" target="_blank">Google
+                        Maps</a></p>
+            </div>
+        </div>
+
+        <div class="footer-section">
+            <!-- <h4>Accresense Technology</h4> -->
+            <p>Powered & Designed by <a href="https://accresense.com/" style="color:#fff;"> Accresense Technology</a>
+            </p>
+        </div>
+    </footer>
+
+
+    <script>
+
+
+        (function () {
+            const slider = document.getElementById("reviewSlider");
+            const slides = Array.from(document.querySelectorAll(".cut1"));
+            const dotsContainer = document.getElementById("dots");
+
+            if (!slider || slides.length === 0 || !dotsContainer) return;
+
+            let index = 0;
+            let autoInterval = 3000; // ms
+            let autoTimer = null;
+            let isUserInteracting = false;
+
+            // create dots
+            slides.forEach((_, i) => {
+                const dot = document.createElement("span");
+                if (i === 0) dot.classList.add("active");
+                dot.addEventListener("click", () => {
+                    index = i;
+                    goTo(index);
+                    resetAuto();
+                });
+                dotsContainer.appendChild(dot);
+            });
+
+            const dots = Array.from(dotsContainer.children);
+
+            // compute card width (visible width)
+            function cardWidth() {
+                return slider.clientWidth;
+            }
+
+            // go to slide index (0-based)
+            function goTo(i) {
+                const left = cardWidth() * i;
+                slider.scrollTo({ left, behavior: "smooth" });
+                updateDots(i);
+            }
+
+            // update dot visuals
+            function updateDots(i) {
+                dots.forEach(d => d.classList.remove("active"));
+                if (dots[i]) dots[i].classList.add("active");
+            }
+
+            // auto slide
+            function startAuto() {
+                stopAuto();
+                autoTimer = setInterval(() => {
+                    index = (index + 1) % slides.length;
+                    goTo(index);
+                }, autoInterval);
+            }
+            function stopAuto() {
+                if (autoTimer) {
+                    clearInterval(autoTimer);
+                    autoTimer = null;
+                }
+            }
+            function resetAuto() {
+                stopAuto();
+                startAuto();
+            }
+
+            // on manual scroll, update index & dots (debounced)
+            let scrollTimeout = null;
+            slider.addEventListener("scroll", () => {
+                // while user is scrolling, temporarily stop auto sliding
+                isUserInteracting = true;
+                stopAuto();
+
+                if (scrollTimeout) clearTimeout(scrollTimeout);
+                scrollTimeout = setTimeout(() => {
+                    const pos = slider.scrollLeft;
+                    const w = cardWidth();
+                    // rounding to nearest index
+                    const newIndex = Math.round(pos / w);
+                    index = Math.min(Math.max(newIndex, 0), slides.length - 1);
+                    updateDots(index);
+                    // resume auto after short pause
+                    isUserInteracting = false;
+                    resetAuto();
+                }, 120); // 120ms after scroll stops
+            });
+
+            // handle window resize -> recalc positions
+            window.addEventListener("resize", () => {
+                // ensure slider aligns exactly to current index after resize
+                setTimeout(() => goTo(index), 120);
+            });
+
+            // start autoplay
+            startAuto();
+
+            // initial alignment (in case of CSS changes)
+            goTo(0);
+        })();
+
+
+        const tabs = document.querySelectorAll(".tab");
+        const items = document.querySelectorAll(".menu-card");
+
+        tabs.forEach(tab => {
+            tab.addEventListener("click", () => {
+
+                // Active tab highlight
+                tabs.forEach(t => t.classList.remove("active"));
+                tab.classList.add("active");
+
+                const category = tab.getAttribute("data-category");
+
+                items.forEach(item => {
+                    if (category === "all" || item.getAttribute("data-category") === category) {
+                        item.style.display = "block";
+                    } else {
+                        item.style.display = "none";
+                    }
+                });
+
+            });
+        });
+
+        const heroSection = document.querySelector(".hero");
+
+        const images = [
+            "Images/hero/hero1.jpg",
+            "Images/hero/hero2.jpg",
+            "Images/hero/hero3.jpg"
+        ];
+
+        let index = 0;
+
+        function changeHeroBG() {
+            heroSection.style.backgroundImage = `url('${images[index]}')`;
+            index = (index + 1) % images.length;
+        }
+
+        changeHeroBG();
+        setInterval(changeHeroBG, 4000);
+
+
+        function change() {
+
+            // document.getElementById('Bh').src = "Images/chef/hand_.png";
+            // document.getElementById('Bh').style.width = "25rem";
+            // document.getElementById('Bh').style.height = "30rem";
+            document.getElementById('frm').style.display = "none";
+            document.getElementById("msg").innerText = "Thanks, your order is confirmed!";
+            document.getElementById("msg").style.display = "block";
+
+        }
+
+
+
+        let scrollBtn = document.getElementById("scrollTopBtn");
+
+        let homeSec = document.getElementById("home");
+        let menuSec = document.getElementById("menu");
+
+        window.addEventListener("scroll", function () {
+
+            let showPoint = homeSec.offsetHeight + menuSec.offsetHeight;
+
+            if (window.scrollY > showPoint) {
+                scrollBtn.style.display = "block";
+            } else {
+                scrollBtn.style.display = "none";
+            }
+        });
+
+        scrollBtn.addEventListener("click", function () {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        });
+
+
+
+        const dateInput = document.getElementById("bookingDate");
+
+        const today = new Date();
+
+
+        const tomorrow = new Date();
+        tomorrow.setDate(tomorrow.getDate() + 1);
+
+
+        const nextMonth = new Date();
+        nextMonth.setMonth(nextMonth.getMonth() + 1);
+
+
+        const format = (d) =>
+            d.toISOString().split("T")[0];
+
+        dateInput.min = format(tomorrow);
+        dateInput.max = format(nextMonth);
+
+        // let count = localStorage.getItem("visitCount");
+
+        // if (!count) {
+        //     count = 1;
+        // } else {
+        //     count = Number(count) + 1;
+        // }
+
+        // localStorage.setItem("visitCount", count);
+
+        // document.getElementById("visitorCount").textContent = count;
+
+
+
+
+
+
+        const sidebar = document.getElementById("sidebar");
+        const openMenu = document.getElementById("openMenu");
+        const html = document.documentElement;
+        const body = document.body;
+
+        // OPEN / CLOSE SIDEBAR
+        openMenu.onclick = (e) => {
+            e.stopPropagation();
+            sidebar.classList.toggle("active");
+
+            if (sidebar.classList.contains("active")) {
+                html.style.overflow = "hidden";
+                body.style.overflow = "hidden";
+            } else {
+                html.style.overflow = "auto";
+                body.style.overflow = "auto";
+            }
+        };
+
+        // CLOSE SIDEBAR WHEN CLICK OUTSIDE
+        document.addEventListener("click", (e) => {
+            if (!sidebar.contains(e.target) && !openMenu.contains(e.target)) {
+                sidebar.classList.remove("active");
+                html.style.overflow = "auto";
+                body.style.overflow = "auto";
+            }
+        });
+
+        // CLOSE SIDEBAR ON NAV LINK CLICK
+        const navLinks = document.querySelectorAll("#sidebar a");
+
+        navLinks.forEach(link => {
+            link.addEventListener("click", () => {
+                sidebar.classList.remove("active");
+                html.style.overflow = "auto";
+                body.style.overflow = "auto";
+            });
+        });
+
+
+
+
+
+
+
+    </script>
+
+
+</body>
+
+
+</html>
